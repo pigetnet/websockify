@@ -1,0 +1,5 @@
+#!/bin/bash
+description "Downloading websockify"
+gitcloner kanaka/websockify /opt/piget/websockify/bin
+ln -sv /opt/piget/websockify/bin/websockify.py /opt/piget/websockify
+mv /opt/piget/websockify/websockify.py /opt/piget/websockify/websockify
